@@ -1,6 +1,6 @@
 #!/bin/sh
 
 set -e
-
-gem install bundler
+# npm ci
+gem install bundler -v 2.4.22
 bundle install
